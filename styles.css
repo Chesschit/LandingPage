@@ -1,9 +1,9 @@
 body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #3399ff, #66ccff);
-    /* Add any additional background effects here */
 }
 
 header {
@@ -12,30 +12,44 @@ header {
     text-align: center;
 }
 
-h1 {
-    color: #333333;
-}
-
-.circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 300px; /* Added width to create a perfect circle */
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
-    margin: 50px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-h2 {
-    color: #333333;
+nav {
+    background-color: #ffffcc;
+    padding: 10px;
     text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: #ccffff;
 }
 
 footer {
-    background-color: #333333;
+    background-color: #ffffff;
     padding: 20px;
-    color: #ffffff;
     text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #ffffcc;
+    padding: 20px;
+    border-radius: 10px;
 }
